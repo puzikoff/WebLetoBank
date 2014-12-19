@@ -1,0 +1,15 @@
+C:\Users\chepelve\Documents\Visual Studio 2012\Projects\WebLetoBank\Utilities\bin\Debug\WebLetoBank.Utilities.dll.config
+C:\Users\chepelve\Documents\Visual Studio 2012\Projects\WebLetoBank\Utilities\bin\Debug\WebLetoBank.Utilities.dll
+C:\Users\chepelve\Documents\Visual Studio 2012\Projects\WebLetoBank\Utilities\bin\Debug\WebLetoBank.Utilities.pdb
+C:\Users\chepelve\Documents\Visual Studio 2012\Projects\WebLetoBank\Utilities\bin\Debug\ThoughtWorks.Selenium.Core.dll
+C:\Users\chepelve\Documents\Visual Studio 2012\Projects\WebLetoBank\Utilities\bin\Debug\WebDriver.dll
+C:\Users\chepelve\Documents\Visual Studio 2012\Projects\WebLetoBank\Utilities\obj\Debug\WebLetoBank.Utilities.dll
+C:\Users\chepelve\Documents\Visual Studio 2012\Projects\WebLetoBank\Utilities\obj\Debug\WebLetoBank.Utilities.pdb
+C:\Users\chepelve\Documents\Visual Studio 2012\Projects\WebLetoBank\Utilities\bin\Debug\nunit.framework.dll
+C:\Users\chepelve\Documents\Visual Studio 2012\Projects\WebLetoBank\Utilities\bin\Debug\NLog.dll
+C:\Users\chepelve\Documents\Visual Studio 2012\Projects\WebLetoBank\Utilities\bin\Debug\NLog.xml
+C:\Users\chepelve\Documents\Visual Studio 2012\Projects\WebLetoBank\Utilities\bin\Debug\ThoughtWorks.Selenium.Core.pdb
+C:\Users\chepelve\Documents\Visual Studio 2012\Projects\WebLetoBank\Utilities\bin\Debug\ThoughtWorks.Selenium.Core.xml
+C:\Users\chepelve\Documents\Visual Studio 2012\Projects\WebLetoBank\Utilities\bin\Debug\WebDriver.pdb
+C:\Users\chepelve\Documents\Visual Studio 2012\Projects\WebLetoBank\Utilities\bin\Debug\WebDriver.xml
+C:\Users\chepelve\Documents\Visual Studio 2012\Projects\WebLetoBank\Utilities\bin\Debug\xNet.dll
