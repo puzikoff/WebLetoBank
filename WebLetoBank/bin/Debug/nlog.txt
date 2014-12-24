@@ -933,3 +933,178 @@
 12/19/2014 16:39:25|Trace|MTEST: Click Next. Go to protect code page
 12/19/2014 16:39:26|Trace|MTEST: Fill protect code fields
 12/19/2014 16:39:26|Trace|MTEST: Click dismiss setting protect code
+12/24/2014 12:34:46|Trace|MTEST: Navigate to authentication page
+12/24/2014 12:34:47|Trace|MTEST: Filling authentication fields
+12/24/2014 12:34:47|Trace|MTEST: Click Registration Button 
+12/24/2014 12:34:48|Trace|MTEST: Agree with license terms
+12/24/2014 12:34:48|Trace|MTEST: Choose registration with account
+12/24/2014 12:34:48|Trace|MTEST: Enter Account Number and access code
+12/24/2014 12:34:48|Trace|MTEST: Click Next. Go to SMS code page
+12/24/2014 12:35:01|Error|MTEST: Ќевозможно предоставить доступ в мобильное приложение.
+12/24/2014 12:36:15|Trace|MTEST: Navigate to authentication page
+12/24/2014 12:36:15|Trace|MTEST: Filling authentication fields
+12/24/2014 12:36:16|Trace|MTEST: Click Registration Button 
+12/24/2014 12:36:16|Trace|MTEST: Agree with license terms
+12/24/2014 12:36:17|Trace|MTEST: Choose registration with account
+12/24/2014 12:36:17|Trace|MTEST: Enter Account Number and access code
+12/24/2014 12:36:17|Trace|MTEST: Click Next. Go to SMS code page
+12/24/2014 12:36:24|Error|MTEST: Ќевозможно предоставить доступ в мобильное приложение.
+12/24/2014 12:37:21|Trace|MTEST: Navigate to authentication page
+12/24/2014 12:37:23|Trace|MTEST: Filling authentication fields
+12/24/2014 12:37:23|Trace|MTEST: Click Registration Button 
+12/24/2014 12:37:24|Trace|MTEST: Agree with license terms
+12/24/2014 12:37:24|Trace|MTEST: Choose registration with account
+12/24/2014 12:37:25|Trace|MTEST: Enter Account Number and access code
+12/24/2014 12:37:25|Trace|MTEST: Click Next. Go to SMS code page
+12/24/2014 12:37:33|Error|MTEST: Ќевозможно предоставить доступ в мобильное приложение.
+12/24/2014 13:02:03|Trace|MTEST: Navigate to authentication page
+12/24/2014 13:02:05|Trace|MTEST: Filling authentication fields
+12/24/2014 13:02:05|Trace|MTEST: Click Registration Button 
+12/24/2014 13:02:06|Trace|MTEST: Agree with license terms
+12/24/2014 13:02:06|Trace|MTEST: Choose registration with account
+12/24/2014 13:02:06|Trace|MTEST: Enter Account Number and access code40817810500240259366 123456
+12/24/2014 13:02:07|Trace|MTEST: Click Next. Go to SMS code page
+12/24/2014 13:02:14|Error|MTEST: Ќевозможно предоставить доступ в мобильное приложение.
+12/24/2014 13:02:26|Trace|MTEST: Navigate to authentication page
+12/24/2014 13:02:27|Trace|MTEST: Filling authentication fields
+12/24/2014 13:02:28|Trace|MTEST: Click Registration Button 
+12/24/2014 13:02:28|Trace|MTEST: Agree with license terms
+12/24/2014 13:02:28|Trace|MTEST: Choose registration with account
+12/24/2014 13:02:28|Trace|MTEST: Enter Account Number and access code40817810600240259334 123456
+12/24/2014 13:02:29|Trace|MTEST: Click Next. Go to SMS code page
+12/24/2014 13:02:35|Error|MTEST: Ќевозможно предоставить доступ в мобильное приложение.
+12/24/2014 13:02:47|Trace|MTEST: Navigate to authentication page
+12/24/2014 13:02:48|Trace|MTEST: Filling authentication fields
+12/24/2014 13:02:48|Trace|MTEST: Click Registration Button 
+12/24/2014 13:02:49|Trace|MTEST: Agree with license terms
+12/24/2014 13:02:49|Trace|MTEST: Choose registration with account
+12/24/2014 13:02:49|Trace|MTEST: Enter Account Number and access code40817810800240259341 123456
+12/24/2014 13:02:50|Trace|MTEST: Click Next. Go to SMS code page
+12/24/2014 13:02:55|Error|MTEST: Ќеверный номер счета или код доступа.
+12/24/2014 13:03:06|Trace|MTEST: Navigate to authentication page
+12/24/2014 13:03:07|Trace|MTEST: Filling authentication fields
+12/24/2014 13:03:07|Trace|MTEST: Click Registration Button 
+12/24/2014 13:03:08|Trace|MTEST: Agree with license terms
+12/24/2014 13:03:08|Trace|MTEST: Choose registration with account
+12/24/2014 13:03:08|Trace|MTEST: Enter Account Number and access code40817810700240259344 123456
+12/24/2014 13:03:08|Trace|MTEST: Click Next. Go to SMS code page
+12/24/2014 13:03:16|Trace|MTEST: Enter SMS code(otp)
+12/24/2014 13:03:16|Trace|MTEST: Click Next. Go to username page
+12/24/2014 13:03:17|Trace|MTEST: Enter usernameu5011807
+12/24/2014 13:03:17|Trace|MTEST: Delete existing username field
+12/24/2014 13:03:17|Trace|MTEST: Click Next. Go to password page
+12/24/2014 13:03:28|Trace|MTEST: Enter and confirm password
+12/24/2014 13:03:28|Trace|MTEST: Click Next. Go to protect code page
+12/24/2014 13:03:29|Trace|MTEST: Fill protect code fields
+12/24/2014 13:03:29|Trace|MTEST: Click dismiss setting protect code
+12/24/2014 13:03:43|Trace|MTEST: Navigate to authentication page
+12/24/2014 13:03:44|Trace|MTEST: Filling authentication fields
+12/24/2014 13:03:44|Trace|MTEST: Click Registration Button 
+12/24/2014 13:03:44|Trace|MTEST: Agree with license terms
+12/24/2014 13:03:45|Trace|MTEST: Choose registration with account
+12/24/2014 13:03:45|Trace|MTEST: Enter Account Number and access code40817810500240259353 123456
+12/24/2014 13:03:45|Trace|MTEST: Click Next. Go to SMS code page
+12/24/2014 13:03:50|Error|MTEST: Ќеверный номер счета или код доступа.
+12/24/2014 13:04:02|Trace|MTEST: Navigate to authentication page
+12/24/2014 13:04:02|Trace|MTEST: Filling authentication fields
+12/24/2014 13:04:03|Trace|MTEST: Click Registration Button 
+12/24/2014 13:04:03|Trace|MTEST: Agree with license terms
+12/24/2014 13:04:03|Trace|MTEST: Choose registration with account
+12/24/2014 13:04:04|Trace|MTEST: Enter Account Number and access code40817810200240259336 123456
+12/24/2014 13:04:04|Trace|MTEST: Click Next. Go to SMS code page
+12/24/2014 13:04:09|Error|MTEST: Ќевозможно предоставить доступ в мобильное приложение.
+12/24/2014 13:04:21|Trace|MTEST: Navigate to authentication page
+12/24/2014 13:04:22|Trace|MTEST: Filling authentication fields
+12/24/2014 13:04:22|Trace|MTEST: Click Registration Button 
+12/24/2014 13:04:23|Trace|MTEST: Agree with license terms
+12/24/2014 13:04:23|Trace|MTEST: Choose registration with account
+12/24/2014 13:04:23|Trace|MTEST: Enter Account Number and access code40817810500240259340 123456
+12/24/2014 13:04:23|Trace|MTEST: Click Next. Go to SMS code page
+12/24/2014 13:04:30|Error|MTEST: Ќевозможно предоставить доступ в мобильное приложение.
+12/24/2014 13:04:41|Trace|MTEST: Navigate to authentication page
+12/24/2014 13:04:42|Trace|MTEST: Filling authentication fields
+12/24/2014 13:04:43|Trace|MTEST: Click Registration Button 
+12/24/2014 13:04:43|Trace|MTEST: Agree with license terms
+12/24/2014 13:04:44|Trace|MTEST: Choose registration with account
+12/24/2014 13:04:44|Trace|MTEST: Enter Account Number and access code40817810100240259339 123456
+12/24/2014 13:04:44|Trace|MTEST: Click Next. Go to SMS code page
+12/24/2014 13:04:52|Trace|MTEST: Enter SMS code(otp)
+12/24/2014 13:04:52|Trace|MTEST: Click Next. Go to username page
+12/24/2014 13:04:53|Trace|MTEST: Enter usernameu5011770
+12/24/2014 13:04:53|Trace|MTEST: Delete existing username field
+12/24/2014 13:04:53|Trace|MTEST: Click Next. Go to password page
+12/24/2014 13:05:05|Trace|MTEST: Enter and confirm password
+12/24/2014 13:05:06|Trace|MTEST: Click Next. Go to protect code page
+12/24/2014 13:05:06|Trace|MTEST: Fill protect code fields
+12/24/2014 13:05:06|Trace|MTEST: Click dismiss setting protect code
+12/24/2014 15:29:01|Trace|MTEST: Navigate to authentication page
+12/24/2014 15:29:02|Trace|MTEST: Filling authentication fields
+12/24/2014 15:29:02|Trace|MTEST: Click Registration Button 
+12/24/2014 15:29:03|Trace|MTEST: Agree with license terms
+12/24/2014 15:29:03|Trace|MTEST: Choose registration with account
+12/24/2014 15:29:03|Trace|MTEST: Enter Account Number and access code: 5008556 123456
+12/24/2014 15:29:04|Trace|MTEST: Click Next. Go to SMS code page
+12/24/2014 15:29:04|Error|MTEST: Ќе верный формат данных
+12/24/2014 15:29:28|Trace|MTEST: Navigate to authentication page
+12/24/2014 15:29:28|Trace|MTEST: Filling authentication fields
+12/24/2014 15:29:29|Trace|MTEST: Click Registration Button 
+12/24/2014 15:29:29|Trace|MTEST: Agree with license terms
+12/24/2014 15:29:29|Trace|MTEST: Choose registration with account
+12/24/2014 15:29:30|Trace|MTEST: Enter Account Number and access code: 5008556 123456
+12/24/2014 15:29:30|Trace|MTEST: Click Next. Go to SMS code page
+12/24/2014 15:29:30|Error|MTEST: Ќе верный формат данных
+12/24/2014 15:30:44|Trace|MTEST: Navigate to authentication page
+12/24/2014 15:30:46|Trace|MTEST: Filling authentication fields
+12/24/2014 15:30:46|Trace|MTEST: Click Registration Button 
+12/24/2014 15:30:47|Trace|MTEST: Agree with license terms
+12/24/2014 15:30:47|Trace|MTEST: Choose registration with account
+12/24/2014 15:30:47|Trace|MTEST: Enter Account Number and access code: 40817810700240259331 123456
+12/24/2014 15:30:48|Trace|MTEST: Click Next. Go to SMS code page
+12/24/2014 15:30:57|Error|MTEST: Ќевозможно предоставить доступ в мобильное приложение.
+12/24/2014 15:43:33|Trace|MTEST: Navigate to authentication page
+12/24/2014 15:43:37|Trace|MTEST: Filling authentication fields
+12/24/2014 15:43:37|Trace|MTEST: Click Registration Button 
+12/24/2014 15:43:37|Trace|MTEST: Agree with license terms
+12/24/2014 15:43:39|Trace|MTEST: Choose registration with account
+12/24/2014 15:43:39|Trace|MTEST: Enter Account Number and access code: 40817810700240259331 123456
+12/24/2014 15:43:39|Trace|MTEST: Click Next. Go to SMS code page
+12/24/2014 15:43:51|Error|MTEST: Ќевозможно предоставить доступ в мобильное приложение.
+12/24/2014 15:44:03|Trace|MTEST: Navigate to authentication page
+12/24/2014 15:44:03|Trace|MTEST: Filling authentication fields
+12/24/2014 15:44:04|Trace|MTEST: Click Registration Button 
+12/24/2014 15:44:04|Trace|MTEST: Agree with license terms
+12/24/2014 15:44:04|Trace|MTEST: Choose registration with account
+12/24/2014 15:44:05|Trace|MTEST: Enter Account Number and access code: 40817810000240259332 123456
+12/24/2014 15:44:05|Trace|MTEST: Click Next. Go to SMS code page
+12/24/2014 15:54:17|Trace|MTEST: Navigate to authentication page
+12/24/2014 15:54:17|Trace|MTEST: Filling authentication fields
+12/24/2014 15:54:17|Trace|MTEST: Click Registration Button 
+12/24/2014 15:54:18|Trace|MTEST: Agree with license terms
+12/24/2014 15:54:18|Trace|MTEST: Choose registration with account
+12/24/2014 15:54:18|Trace|MTEST: Enter Account Number and access code: 40817810700240259331 123456
+12/24/2014 15:54:19|Trace|MTEST: Click Next. Go to SMS code page
+12/24/2014 15:54:26|Error|MTEST: Ќевозможно предоставить доступ в мобильное приложение.
+12/24/2014 15:54:39|Trace|MTEST: Navigate to authentication page
+12/24/2014 15:54:41|Trace|MTEST: Filling authentication fields
+12/24/2014 15:54:41|Trace|MTEST: Click Registration Button 
+12/24/2014 15:54:42|Trace|MTEST: Agree with license terms
+12/24/2014 15:54:42|Trace|MTEST: Choose registration with account
+12/24/2014 15:54:42|Trace|MTEST: Enter Account Number and access code: 40817810000240259332 123456
+12/24/2014 15:54:43|Trace|MTEST: Click Next. Go to SMS code page
+12/24/2014 15:54:50|Error|MTEST: Ќевозможно предоставить доступ в мобильное приложение.
+12/24/2014 15:55:01|Trace|MTEST: Navigate to authentication page
+12/24/2014 15:55:02|Trace|MTEST: Filling authentication fields
+12/24/2014 15:55:03|Trace|MTEST: Click Registration Button 
+12/24/2014 15:55:03|Trace|MTEST: Agree with license terms
+12/24/2014 15:55:03|Trace|MTEST: Choose registration with account
+12/24/2014 15:55:04|Trace|MTEST: Enter Account Number and access code: 40817810800240259338 123456
+12/24/2014 15:55:04|Trace|MTEST: Click Next. Go to SMS code page
+12/24/2014 15:55:11|Error|MTEST: Ќевозможно предоставить доступ в мобильное приложение.
+12/24/2014 15:55:23|Trace|MTEST: Navigate to authentication page
+12/24/2014 15:55:23|Trace|MTEST: Filling authentication fields
+12/24/2014 15:55:24|Trace|MTEST: Click Registration Button 
+12/24/2014 15:55:24|Trace|MTEST: Agree with license terms
+12/24/2014 15:55:24|Trace|MTEST: Choose registration with account
+12/24/2014 15:55:25|Trace|MTEST: Enter Account Number and access code: 40817810200240259336 123456
+12/24/2014 15:55:25|Trace|MTEST: Click Next. Go to SMS code page
+12/24/2014 15:55:32|Error|MTEST: Ќевозможно предоставить доступ в мобильное приложение.

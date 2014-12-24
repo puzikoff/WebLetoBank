@@ -13,3 +13,21 @@ C:\Users\chepelve\Documents\Visual Studio 2012\Projects\WebLetoBank\Utilities\bi
 C:\Users\chepelve\Documents\Visual Studio 2012\Projects\WebLetoBank\Utilities\bin\Debug\WebDriver.pdb
 C:\Users\chepelve\Documents\Visual Studio 2012\Projects\WebLetoBank\Utilities\bin\Debug\WebDriver.xml
 C:\Users\chepelve\Documents\Visual Studio 2012\Projects\WebLetoBank\Utilities\bin\Debug\xNet.dll
+C:\Users\chepelve\Documents\GitHub\WebLetoBank\Utilities\bin\Debug\WebLetoBank.Utilities.dll.config
+C:\Users\chepelve\Documents\GitHub\WebLetoBank\Utilities\bin\Debug\WebLetoBank.Utilities.dll
+C:\Users\chepelve\Documents\GitHub\WebLetoBank\Utilities\bin\Debug\WebLetoBank.Utilities.pdb
+C:\Users\chepelve\Documents\GitHub\WebLetoBank\Utilities\bin\Debug\NLog.dll
+C:\Users\chepelve\Documents\GitHub\WebLetoBank\Utilities\bin\Debug\nunit.framework.dll
+C:\Users\chepelve\Documents\GitHub\WebLetoBank\Utilities\bin\Debug\ThoughtWorks.Selenium.Core.dll
+C:\Users\chepelve\Documents\GitHub\WebLetoBank\Utilities\bin\Debug\WebDriver.dll
+C:\Users\chepelve\Documents\GitHub\WebLetoBank\Utilities\bin\Debug\xNet.dll
+C:\Users\chepelve\Documents\GitHub\WebLetoBank\Utilities\bin\Debug\NLog.xml
+C:\Users\chepelve\Documents\GitHub\WebLetoBank\Utilities\bin\Debug\ThoughtWorks.Selenium.Core.pdb
+C:\Users\chepelve\Documents\GitHub\WebLetoBank\Utilities\bin\Debug\ThoughtWorks.Selenium.Core.xml
+C:\Users\chepelve\Documents\GitHub\WebLetoBank\Utilities\bin\Debug\WebDriver.pdb
+C:\Users\chepelve\Documents\GitHub\WebLetoBank\Utilities\bin\Debug\WebDriver.xml
+C:\Users\chepelve\Documents\GitHub\WebLetoBank\Utilities\obj\Debug\WebLetoBank.Utilities.dll
+C:\Users\chepelve\Documents\GitHub\WebLetoBank\Utilities\obj\Debug\WebLetoBank.Utilities.pdb
+C:\Users\chepelve\Documents\GitHub\WebLetoBank\Utilities\bin\Debug\Selenium.WebDriverBackedSelenium.dll
+C:\Users\chepelve\Documents\GitHub\WebLetoBank\Utilities\bin\Debug\Selenium.WebDriverBackedSelenium.pdb
+C:\Users\chepelve\Documents\GitHub\WebLetoBank\Utilities\bin\Debug\Selenium.WebDriverBackedSelenium.xml

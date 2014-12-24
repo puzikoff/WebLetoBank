@@ -42,7 +42,11 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\External\nunit.framework.dll</HintPath>
     </Reference>
+    <Reference Include="Selenium.WebDriverBackedSelenium">
+      <HintPath>..\External\Selenium.WebDriverBackedSelenium.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
     <Reference Include="ThoughtWorks.Selenium.Core, Version=2.44.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -73,6 +77,7 @@
     <Compile Include="AuthPageHelper.cs" />
     <Compile Include="DirectoryHelper.cs" />
     <Compile Include="EnumHelper.cs" />
+    <Compile Include="ExcelTestDataReader.cs" />
     <Compile Include="Extensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Settings.Designer.cs">
