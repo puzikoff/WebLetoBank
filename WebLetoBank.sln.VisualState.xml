@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="true">
+  <TopNode>[0-1000]C:\Users\timofeevma\Source\Repos\WebLeto_Selenium_UI_Tests\WebLetoBank.sln</TopNode>
+  <SelectedNode>[0-1004]WebLetoBank.Tests.AccountRegistration.AccountRegistrationTest("40817810000340008001","55956")</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1000]C:\Users\timofeevma\Source\Repos\WebLeto_Selenium_UI_Tests\WebLetoBank.sln" Expanded="true" />
+    <Node UniqueName="[0-1029]C:\Users\timofeevma\Source\Repos\WebLeto_Selenium_UI_Tests\WebLetoBank\bin\Debug\WebLetoBank.Tests.dll" Expanded="true" />
+    <Node UniqueName="[0-1030]WebLetoBank" Expanded="true" />
+    <Node UniqueName="[0-1031]WebLetoBank.Tests" Expanded="true" />
+    <Node UniqueName="[0-1002]WebLetoBank.Tests.AccountRegistration" Expanded="true" />
+    <Node UniqueName="[0-1003]WebLetoBank.Tests.AccountRegistration.AccountRegistrationTest" Expanded="true" />
+    <Node UniqueName="[0-1016]WebLetoBank.Tests.CardRegistration.CardRegistrationTest" Expanded="true" />
+  </Nodes>
+</VisualState>
