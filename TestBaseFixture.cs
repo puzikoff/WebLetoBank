@@ -8,12 +8,7 @@ namespace WebLetoBank.Tests
     public class TestBaseFixture
     {
         public TestContext TestContext { get; set; }
-
-        [TestFixtureSetUp]
-        public void TestInitialize()
-        {
-            Browser.Start();
-        }
+           
 
         [TestFixtureTearDown]
         public void TestCleanup()

@@ -23,3 +23,29 @@ C:\Users\chepelve\Documents\Visual Studio 2012\Projects\WebLetoBank\WebLetoBank\
 C:\Users\chepelve\Documents\Visual Studio 2012\Projects\WebLetoBank\WebLetoBank\bin\Debug\WebDriver.Support.pdb
 C:\Users\chepelve\Documents\Visual Studio 2012\Projects\WebLetoBank\WebLetoBank\bin\Debug\WebDriver.Support.xml
 C:\Users\chepelve\Documents\Visual Studio 2012\Projects\WebLetoBank\WebLetoBank\bin\Debug\xNet.dll
+C:\Users\timofeevma\Source\Repos\WebLeto_Selenium_UI_Tests\WebLetoBank\bin\Debug\Nlog.config
+C:\Users\timofeevma\Source\Repos\WebLeto_Selenium_UI_Tests\WebLetoBank\bin\Debug\WebLetoBank.Tests.dll.config
+C:\Users\timofeevma\Source\Repos\WebLeto_Selenium_UI_Tests\WebLetoBank\bin\Debug\WebLetoBank.Tests.dll
+C:\Users\timofeevma\Source\Repos\WebLeto_Selenium_UI_Tests\WebLetoBank\bin\Debug\WebLetoBank.Tests.pdb
+C:\Users\timofeevma\Source\Repos\WebLeto_Selenium_UI_Tests\WebLetoBank\bin\Debug\NLog.dll
+C:\Users\timofeevma\Source\Repos\WebLeto_Selenium_UI_Tests\WebLetoBank\bin\Debug\nunit.framework.dll
+C:\Users\timofeevma\Source\Repos\WebLeto_Selenium_UI_Tests\WebLetoBank\bin\Debug\Selenium.WebDriverBackedSelenium.dll
+C:\Users\timofeevma\Source\Repos\WebLeto_Selenium_UI_Tests\WebLetoBank\bin\Debug\ThoughtWorks.Selenium.Core.dll
+C:\Users\timofeevma\Source\Repos\WebLeto_Selenium_UI_Tests\WebLetoBank\bin\Debug\WebDriver.dll
+C:\Users\timofeevma\Source\Repos\WebLeto_Selenium_UI_Tests\WebLetoBank\bin\Debug\WebDriver.Support.dll
+C:\Users\timofeevma\Source\Repos\WebLeto_Selenium_UI_Tests\WebLetoBank\bin\Debug\WebLetoBank.Utilities.dll
+C:\Users\timofeevma\Source\Repos\WebLeto_Selenium_UI_Tests\WebLetoBank\bin\Debug\xNet.dll
+C:\Users\timofeevma\Source\Repos\WebLeto_Selenium_UI_Tests\WebLetoBank\bin\Debug\WebLetoBank.Utilities.pdb
+C:\Users\timofeevma\Source\Repos\WebLeto_Selenium_UI_Tests\WebLetoBank\bin\Debug\NLog.xml
+C:\Users\timofeevma\Source\Repos\WebLeto_Selenium_UI_Tests\WebLetoBank\bin\Debug\Selenium.WebDriverBackedSelenium.pdb
+C:\Users\timofeevma\Source\Repos\WebLeto_Selenium_UI_Tests\WebLetoBank\bin\Debug\Selenium.WebDriverBackedSelenium.xml
+C:\Users\timofeevma\Source\Repos\WebLeto_Selenium_UI_Tests\WebLetoBank\bin\Debug\ThoughtWorks.Selenium.Core.pdb
+C:\Users\timofeevma\Source\Repos\WebLeto_Selenium_UI_Tests\WebLetoBank\bin\Debug\ThoughtWorks.Selenium.Core.xml
+C:\Users\timofeevma\Source\Repos\WebLeto_Selenium_UI_Tests\WebLetoBank\bin\Debug\WebDriver.pdb
+C:\Users\timofeevma\Source\Repos\WebLeto_Selenium_UI_Tests\WebLetoBank\bin\Debug\WebDriver.xml
+C:\Users\timofeevma\Source\Repos\WebLeto_Selenium_UI_Tests\WebLetoBank\bin\Debug\WebDriver.Support.pdb
+C:\Users\timofeevma\Source\Repos\WebLeto_Selenium_UI_Tests\WebLetoBank\bin\Debug\WebDriver.Support.xml
+C:\Users\timofeevma\Source\Repos\WebLeto_Selenium_UI_Tests\WebLetoBank\obj\Debug\WebLetoBank.Tests.csprojResolveAssemblyReference.cache
+C:\Users\timofeevma\Source\Repos\WebLeto_Selenium_UI_Tests\WebLetoBank\obj\Debug\WebLetoBank.Tests.dll
+C:\Users\timofeevma\Source\Repos\WebLeto_Selenium_UI_Tests\WebLetoBank\obj\Debug\WebLetoBank.Tests.pdb
+C:\Users\timofeevma\Source\Repos\WebLeto_Selenium_UI_Tests\WebLetoBank\bin\Debug\nunit.framework.xml

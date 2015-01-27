@@ -22,22 +22,22 @@ namespace WebLetoBank.Tests
        
         [Test]
 
-        [TestCase("40817810200240259336", "u5008556")]
-        [TestCase("40817810100240259339", "u5011770")]
-        [TestCase("40817810600240259334", "u5008556")]
-        [TestCase("40817810500240259340", "u5011779")]
-        [TestCase("40817810800240259341", "u5011780")]
-        [TestCase("40817810700240259344", "u5011807")]
-        [TestCase("40817810500240259353", "u5011607")]
-        [TestCase("40817810500240259366", "u5010648")]
-
-        public void MtestAccountRegistrationTest(string AccountNumber, string Username)
+        [TestCase("40817810100340001241", "5596623")]
+        [TestCase("40817810900340000798", "5589895")]
+        [TestCase("40817810000340000423", "5584009")]
+        [TestCase("40817810200340020850", "5799519")]
+        [TestCase("40817810900340031929", "5898964")]
+        [TestCase("40817810500340048228", "6006507")]
+        [TestCase("40817810400340083370", "6209928")]
+        [TestCase("40817810000340008001", "55956")]       
+                
+        public void AccountRegistrationTest(string AccountNumber, string Username)
         {
             Log = LogManager.GetCurrentClassLogger();
             Log.Trace(" Navigate to authentication page");
             Browser.Navigate(BaseUrl + "/self");
             Log.Trace(" Filling authentication fields");            
-            AuthPageHelper.FillAuthenticationFields(Username, Password);
+            AuthPageHelper.FillAuthenticationFields("u" + Username, Password);
             Log.Trace(" Click Registration Button ");
             AuthPageHelper.RegistrationButtonClick();
             Log.Trace(" Agree with license terms");
@@ -61,9 +61,9 @@ namespace WebLetoBank.Tests
             if (Browser.GetDriver().FindElement(By.XPath("//li")).Displayed) {
                 IWebElement Error = Browser.GetDriver().FindElement(By.XPath("//li"));
                 Log.Error(" " + Error.Text);                
-            }       
-            Log.Trace(" Enter username: " + Username);
-            RegistrationHelper.EnterUsername(Username);
+            }
+            Log.Trace(" Enter username: " + "u" + Username);
+            RegistrationHelper.EnterUsername("u" + Username);
             Log.Trace(" Delete existing username field");
             Browser.ExecuteJavaScript("var logins = document.getElementById('logins')");
             Browser.ExecuteJavaScript("logins.parentNode.removeChild(logins)");

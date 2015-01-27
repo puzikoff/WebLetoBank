@@ -22,22 +22,15 @@ namespace WebLetoBank.Tests
 
         [Test]
 
-        [TestCase("5596623", "4059920012022951")]
-        [TestCase("5589895", "4059920012067444")]
-        [TestCase("5584009", "4059920012061397")]
-        [TestCase("5799519", "4059920012345261")]
-        [TestCase("5898964", "4059920012521291")]
-        [TestCase("6006507", "4059920012514262")]
-        [TestCase("6209928", "4059920013388765")]
         [TestCase("55956", "4059920012243789")]
 
-        public void MtestCardRegistrationTest(string MtestUsername, string MtestCardNumber)
+        public void CardRegistrationTest(string CRM, string CardNumber)
         {
             Log = LogManager.GetCurrentClassLogger();
             Log.Trace(" Navigate to authentication page");
             Browser.Navigate(BaseUrl + "/self");
             Log.Trace(" Filling authentication fields");
-            AuthPageHelper.FillAuthenticationFields("u" + MtestUsername, Password);
+            AuthPageHelper.FillAuthenticationFields("u" + CRM, Password);
             Log.Trace(" Click Registration Button ");
             AuthPageHelper.RegistrationButtonClick();
             Log.Trace(" Agree with license terms");
@@ -45,7 +38,7 @@ namespace WebLetoBank.Tests
             Log.Trace(" Choose registration with account");
             RegistrationHelper.ChooseRegistrationType("card");
             Log.Trace(" Enter Account Number and access code");
-            RegistrationHelper.EnterCardCredentials(MtestCardNumber, AccessCode);
+            RegistrationHelper.EnterCardCredentials(CardNumber, AccessCode);
             Log.Trace(" Click Next. Go to SMS code page");
             RegistrationHelper.NextButtonClick();
             if (Browser.GetDriver().FindElement(By.XPath("//li")).Displayed)
@@ -65,7 +58,7 @@ namespace WebLetoBank.Tests
                 Log.Error(" " + Error.Text);
             }
             Log.Trace(" Enter username");
-            RegistrationHelper.EnterUsername("u" + MtestUsername);
+            RegistrationHelper.EnterUsername("u" + CRM);
             Log.Trace(" Delete existing username field");
             Browser.ExecuteJavaScript("var logins = document.getElementById('logins')");
             Browser.ExecuteJavaScript("logins.parentNode.removeChild(logins)");
