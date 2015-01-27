@@ -27,7 +27,7 @@ namespace WebLetoBank.Tests
             Log.Trace(" Starting Web Driver");
             Browser.Start();                        
             Browser.Navigate(BaseUrl + "/self");
-            Log.Trace(" Making log in");
+            Log.Trace(" Making log in with credentials: " + username + "/" + password);
             AuthPageHelper.Authentication(username, password);           
         }
 
@@ -36,13 +36,11 @@ namespace WebLetoBank.Tests
         {
             Log = LogManager.GetCurrentClassLogger();
             Log.Trace(" Navigate to authentication page");
-            Browser.Navigate(BaseUrl + "/self");
-            //Log.Trace(" Making log in");
-            //AuthPageHelper.Authentication(username, password);           
+            Browser.Navigate(BaseUrl + "/self");     
             if (!Browser.existsElement(By.XPath("//pre")))
             {
                 Log.Error(" No JSON on dashboard page");
-                Log.Info(" Making screenshot " + FilesPaths.SelfPageScreen);
+                Log.Info(" Making screenshot: \\" + FilesPaths.SelfPageScreen);
                 Browser.SaveScreenshot(FilesPaths.SelfPageScreen);
             }
             Log.Trace(" Getting dashboard JSON ");
@@ -51,7 +49,7 @@ namespace WebLetoBank.Tests
             {
                 Log.Error(" Error on dashboard page");
                 Log.Error(_json);
-                Log.Info(" Making screenshot: " + FilesPaths.SelfPageScreen);
+                Log.Info(" Making screenshot: \\" + FilesPaths.SelfPageScreen);
                 Browser.SaveScreenshot(FilesPaths.SelfPageScreen);                           
             }
             Assert.False(_json.StartsWith("{\"errorCode\""));
@@ -67,7 +65,7 @@ namespace WebLetoBank.Tests
             if (!Browser.existsElement(By.XPath("//pre")))
             {
                 Log.Error(" No JSON on user's contracts page");
-                Log.Info(" Making screenshot: " + FilesPaths.ContractsPageScreen);
+                Log.Info(" Making screenshot: \\" + FilesPaths.ContractsPageScreen);
                 Browser.SaveScreenshot(FilesPaths.ContractsPageScreen);
             }
             Log.Trace(" Getting user's contracts JSON");
@@ -76,7 +74,7 @@ namespace WebLetoBank.Tests
             {
                 Log.Error(" Error on user's contracts page");
                 Log.Error( _json);
-                Log.Info(" Making screenshot: " + FilesPaths.ContractsPageScreen);
+                Log.Info(" Making screenshot: \\" + FilesPaths.ContractsPageScreen);
                 Browser.SaveScreenshot(FilesPaths.ContractsPageScreen);                             
             }
             Assert.False(_json.StartsWith("{\"errorCode\""));
@@ -92,7 +90,7 @@ namespace WebLetoBank.Tests
             if (!Browser.existsElement(By.XPath("//pre")))
             {
                 Log.Error(" No JSON on credit contract page");
-                Log.Info(" Making screenshot: " + FilesPaths.ContractPageScreen);
+                Log.Info(" Making screenshot: \\" + FilesPaths.ContractPageScreen);
                 Browser.SaveScreenshot(FilesPaths.ContractPageScreen);
             }
             Log.Trace(" Getting credit contract JSON: contractNumber " + contract);
@@ -101,7 +99,7 @@ namespace WebLetoBank.Tests
             {
                 Log.Error(" Error on credit contract page");
                 Log.Error(_json);
-                Log.Info(" Making screenshot: " + FilesPaths.ContractPageScreen);
+                Log.Info(" Making screenshot: \\" + FilesPaths.ContractPageScreen);
                 Browser.SaveScreenshot(FilesPaths.ContractPageScreen);               
                
             }
@@ -118,7 +116,7 @@ namespace WebLetoBank.Tests
             if (!Browser.existsElement(By.XPath("//pre")))
             {
                 Log.Error(" No JSON on credit's payments schedule page");
-                Log.Info(" Making screenshot: " + FilesPaths.PaymentsSchedulePageScreen);
+                Log.Info(" Making screenshot: \\" + FilesPaths.PaymentsSchedulePageScreen);
                 Browser.SaveScreenshot(FilesPaths.PaymentsSchedulePageScreen);
             }
             Log.Trace(" Getting credit's payments schedule JSON");
@@ -127,7 +125,7 @@ namespace WebLetoBank.Tests
             {
                 Log.Error(" Error on credit's payments schedule page");
                 Log.Error(_json);
-                Log.Info(" Making screenshot: " + FilesPaths.PaymentsSchedulePageScreen);
+                Log.Info(" Making screenshot: \\" + FilesPaths.PaymentsSchedulePageScreen);
                 Browser.SaveScreenshot(FilesPaths.PaymentsSchedulePageScreen);                               
             }
             Assert.False(_json.StartsWith("{\"errorCode\""));
@@ -143,7 +141,7 @@ namespace WebLetoBank.Tests
             if (!Browser.existsElement(By.XPath("//pre")))
             {
                 Log.Error(" No JSON on contracts services page");
-                Log.Info(" Making scrennshot:");
+                Log.Info(" Making scrennshot: \\" + FilesPaths.ContractServicesScreen);
                 Browser.SaveScreenshot(FilesPaths.ContractServicesScreen);
             }
             Log.Trace(" Getting JSON /banking/contracts/" + contract + "?expand=services");            
@@ -152,7 +150,7 @@ namespace WebLetoBank.Tests
             {
                 Log.Error(" Error on contracts services page");
                 Log.Error(_json);
-                Log.Error(" Making screenshot:");
+                Log.Error(" Making screenshot: //" + FilesPaths.ContractServicesScreen);
                 Browser.SaveScreenshot(FilesPaths.ContractServicesScreen);
             }                     
             Assert.False(_json.StartsWith("{\"errorCode\""));
@@ -168,7 +166,7 @@ namespace WebLetoBank.Tests
             if (!Browser.existsElement(By.XPath("//pre")))
             {
                 Log.Error(" No JSON on common timeline page");
-                Log.Info(" Making screenshot: " + FilesPaths.TimelinePageScreen);
+                Log.Info(" Making screenshot: \\" + FilesPaths.TimelinePageScreen);
                 Browser.SaveScreenshot(FilesPaths.TimelinePageScreen);
             }
             Log.Trace(" Getting common timeline JSON");
@@ -177,7 +175,7 @@ namespace WebLetoBank.Tests
             {
                 Log.Error(" Error on common timeline page");
                 Log.Error(_json);
-                Log.Info(" Making screenshot: " + FilesPaths.TimelinePageScreen);
+                Log.Info(" Making screenshot: \\" + FilesPaths.TimelinePageScreen);
                 Browser.SaveScreenshot(FilesPaths.TimelinePageScreen);              
             }
             Assert.False(_json.StartsWith("{\"errorCode\""));
@@ -193,7 +191,7 @@ namespace WebLetoBank.Tests
             if (!Browser.existsElement(By.XPath("//pre")))
             {
                 Log.Error(" No JSON on common timeline event page");
-                Log.Info(" Making screenshot: " + FilesPaths.TimelineEventPageScreen);
+                Log.Info(" Making screenshot: \\" + FilesPaths.TimelineEventPageScreen);
                 Browser.SaveScreenshot(FilesPaths.TimelineEventPageScreen);
             }
             Log.Trace(" Getting common timeline event JSON");
@@ -202,7 +200,7 @@ namespace WebLetoBank.Tests
             {
                 Log.Error(" Error on common timeline event page");
                 Log.Error(_json);
-                Log.Info(" Making screenshot: " + FilesPaths.TimelineEventPageScreen);
+                Log.Info(" Making screenshot: \\" + FilesPaths.TimelineEventPageScreen);
                 Browser.SaveScreenshot(FilesPaths.TimelineEventPageScreen);               
             }
             Assert.False(_json.StartsWith("{\"errorCode\""));
@@ -218,7 +216,7 @@ namespace WebLetoBank.Tests
             if (!Browser.existsElement(By.XPath("//pre")))
             {
                 Log.Error(" No JSON on contract timeline page");
-                Log.Info(" Making screenshot: " + FilesPaths.ContractTimelineScreen);
+                Log.Info(" Making screenshot: \\" + FilesPaths.ContractTimelineScreen);
                 Browser.SaveScreenshot(FilesPaths.ContractTimelineScreen);
             }
             Log.Trace(" Getting JSON /banking/contracts/" + contract + "/timeline");
@@ -227,7 +225,7 @@ namespace WebLetoBank.Tests
             {
                 Log.Error(" Error on contract timeline page");
                 Log.Error(_json);
-                Log.Info(" Making screenshot: " + FilesPaths.ContractTimelineScreen);
+                Log.Info(" Making screenshot: \\" + FilesPaths.ContractTimelineScreen);
                 Browser.SaveScreenshot(FilesPaths.ContractTimelineScreen);              
             }
             Assert.False(_json.StartsWith("{\"errorCode\""));
@@ -243,7 +241,7 @@ namespace WebLetoBank.Tests
             if ((!Browser.existsElement(By.XPath("//pre"))))
             {
                 Log.Error(" No JSON on contract timeline event page");
-                Log.Info(" Making screenshot: " + FilesPaths.ContractTimelineEventScreen);
+                Log.Info(" Making screenshot: \\" + FilesPaths.ContractTimelineEventScreen);
                 Browser.SaveScreenshot(FilesPaths.ContractTimelineEventScreen);             
             }
             Log.Trace(" Getting contract timeline event JSON");
@@ -252,7 +250,7 @@ namespace WebLetoBank.Tests
             {
                 Log.Error(" Error on contract timeline event page");
                 Log.Error(_json);              
-                Log.Info(" Making screenshot: " + FilesPaths.ContractTimelineEventScreen);
+                Log.Info(" Making screenshot: \\" + FilesPaths.ContractTimelineEventScreen);
                 Browser.SaveScreenshot(FilesPaths.ContractTimelineEventScreen);              
             }                       
             Assert.False(_json.StartsWith("{\"errorCode\""));

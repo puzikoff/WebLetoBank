@@ -22,14 +22,7 @@ namespace WebLetoBank.Tests
        
         [Test]
 
-        [TestCase("40817810100340001241", "5596623")]
-        [TestCase("40817810900340000798", "5589895")]
-        [TestCase("40817810000340000423", "5584009")]
-        [TestCase("40817810200340020850", "5799519")]
-        [TestCase("40817810900340031929", "5898964")]
-        [TestCase("40817810500340048228", "6006507")]
-        [TestCase("40817810400340083370", "6209928")]
-        [TestCase("40817810000340008001", "55956")]       
+//        [TestCase("40817810000340008001", "55956")]       
                 
         public void AccountRegistrationTest(string AccountNumber, string Username)
         {

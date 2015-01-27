@@ -25,6 +25,8 @@ namespace WebLetoBank.Utilities
         public const string ContractTimelineScreen = @"ScreenShots\ContractTimeline.jpg";
         
         public const string ContractTimelineEventScreen = @"ScreenShots\ContractTimelineEvent.jpg";
+
+        public const string AnotherUserContractPageScreen = @"ScreenShots\AnotherUserContract.jpg";
         
     }
 }

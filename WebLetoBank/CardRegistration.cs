@@ -22,7 +22,7 @@ namespace WebLetoBank.Tests
 
         [Test]
 
-        [TestCase("55956", "4059920012243789")]
+       // [TestCase("55956", "4059920012243789")]
 
         public void CardRegistrationTest(string CRM, string CardNumber)
         {

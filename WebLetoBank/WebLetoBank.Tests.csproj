@@ -95,6 +95,7 @@
   <ItemGroup>
     <Compile Include="AccountRegistration.cs" />
     <Compile Include="AccountRegistrationDDT.cs" />
+    <Compile Include="SecurityTests.cs" />
     <Compile Include="TestBase.cs" />
     <Compile Include="CardRegistration.cs" />
     <Compile Include="WebErrorTests.cs" />
