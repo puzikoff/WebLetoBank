@@ -1,5 +1,10 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
-<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)">
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="WebLetoBank.Tests.Properties" GeneratedClassName="Settings">
   <Profiles />
-  <Settings />
+  <Settings>
+    <Setting Name="EnvironomentBaseUrl" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://mtest.ekassir.com:4443/personalcabinet2/api/v1</Value>
+      <Value Profile="(mtest)">https://mtest.ekassir.com:4443/personalcabinet/api/v1</Value>
+    </Setting>
+  </Settings>
 </SettingsFile>

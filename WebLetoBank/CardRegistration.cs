@@ -11,11 +11,6 @@ namespace WebLetoBank.Tests
     [TestFixture]
     public class CardRegistration : TestBase
     {
-        public static Logger Log;
-        private const string BaseUrl = "https://mtest.ekassir.com:4443/personalcabinet/api/v1";
-        //private const string BaseUrl = "https://sb2.ekassir.com/personalcabinet/api/v1";
-        //private const string BaseUrl = "https://mobile.letobank.ru/personalcabinet/api/v1";       
-        private const string Password = "Qwerty";        
         private const string AccessCode = "123456";
         private const string OTR = "334500";
         private const string ProtectCode = "1234";        

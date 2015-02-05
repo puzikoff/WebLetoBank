@@ -35,6 +35,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.8\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="NLog">
       <HintPath>..\External\NLog.dll</HintPath>
     </Reference>
@@ -95,7 +98,9 @@
   <ItemGroup>
     <Compile Include="AccountRegistration.cs" />
     <Compile Include="AccountRegistrationDDT.cs" />
+    <Compile Include="LoanContractJsonFieldsTests.cs" />
     <Compile Include="SecurityTests.cs" />
+    <Compile Include="Settings.cs" />
     <Compile Include="TestBase.cs" />
     <Compile Include="CardRegistration.cs" />
     <Compile Include="WebErrorTests.cs" />
@@ -121,12 +126,14 @@
     </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
-      <Generator>SettingsSingleFileGenerator</Generator>
+      <Generator>PublicSettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>

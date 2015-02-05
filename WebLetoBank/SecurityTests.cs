@@ -10,26 +10,9 @@ namespace WebLetoBank.Tests
     [TestFixture]
     public class SecurityTests : TestBaseFixture
     {
-        public static Logger Log;
-        private const string BaseUrl = "https://mtest.ekassir.com:4443/personalcabinet/api/v1";
-        //private const string BaseUrl = "https://sb2.ekassir.com/personalcabinet/api/v1";
-        //private const string BaseUrl = "https://mobile.letobank.ru/personalcabinet/api/v1"; 
-        private const string username = "u23340";
-        private const string password = "Qwerty";
-        private const string anotherUserContract = "10020328";        
+        private const string anotherUserContract = "13954109";        
         private string _json;
-
-        [TestFixtureSetUp]
-        public void TestInitialize()
-        {
-            Log = LogManager.GetCurrentClassLogger();
-            Log.Trace(" Starting Web Driver");
-            Browser.Start();
-            Browser.Navigate(BaseUrl + "/self");
-            Log.Trace(" Making log in with credentials: " + username + "/" + password);
-            AuthPageHelper.Authentication(username, password);
-        }
-
+        
         [Test]
         public void AnotherUserContractTest()
         {

@@ -11,24 +11,21 @@ namespace WebLetoBank.Tests
     [TestFixture]
     public class AccountRegistration : TestBase
     {
-        public static Logger Log;
-        private const string BaseUrl = "https://mtest.ekassir.com:4443/personalcabinet/api/v1";
-        //private const string BaseUrl = "https://sb2.ekassir.com/personalcabinet/api/v1";
-        //private const string BaseUrl = "https://mobile.letobank.ru/personalcabinet/api/v1";
-        private const string Password = "Qwerty";        
+       
         private const string AccessCode = "123456";
         private const string OTR = "334500";
         private const string ProtectCode = "1234";
        
         [Test]
 
-//        [TestCase("40817810000340008001", "55956")]       
+        [TestCase("40817810600340000030", "387634")]       
                 
         public void AccountRegistrationTest(string AccountNumber, string Username)
         {
             Log = LogManager.GetCurrentClassLogger();
             Log.Trace(" Navigate to authentication page");
             Browser.Navigate(BaseUrl + "/self");
+            //Browser.Navigate(Settings.Settings + "/self");
             Log.Trace(" Filling authentication fields");            
             AuthPageHelper.FillAuthenticationFields("u" + Username, Password);
             Log.Trace(" Click Registration Button ");
