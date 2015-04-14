@@ -12,10 +12,11 @@ namespace WebLetoBank.Tests
         public TestContext TestContext { get; set; }
 
         public static Logger Log;
-        //public const string BaseUrl = "https://mtest.ekassir.com:4443/personalcabinet/api/v1";
-        public const string BaseUrl = "https://mtest.ekassir.com:4443/personalcabinet2/api/v1";
-        //private const string BaseUrl = "https://sb2.ekassir.com/personalcabinet/api/v1";
-        //private const string BaseUrl = "https://mobile.letobank.ru/personalcabinet/api/v1";
+        public const string BaseUrl = "https://mtest.ekassir.com:4443/personalcabinet/api/v1";      //MTEST 
+        //public const string BaseUrl = "https://mtest.ekassir.com:4443/personalcabinet2/api/v1";   //MTEST2
+        //public const string BaseUrl = "https://sb2.ekassir.com/personalcabinet/api/v1";           //SB
+        //public const string BaseUrl = "https://mobile.letobank.ru/personalcabinet/api/v1";        //PROD
+        //public const string BaseUrl = "https://mobile.letobank.ru/personalcabinet2/api/v1";       //PROD2
         public const string Password = "Qwerty";        
         
         [SetUp]

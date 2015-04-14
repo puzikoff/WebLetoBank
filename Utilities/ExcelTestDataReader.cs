@@ -1,4 +1,5 @@
-﻿using NUnit.Framework;
+﻿using NLog;
+using NUnit.Framework;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -11,11 +12,14 @@ namespace WebLetoBank.Utilities
 
     public class ExcelTestDataReader
     {
-      public List<TestCaseData> ReadExcelData(string excelFile)
+        public static Logger Log;        
+        public List<TestCaseData> ReadExcelData(string excelFile)
         {
+            Boolean f = false;         
+            Log = LogManager.GetCurrentClassLogger();
             string connectionStr = "Provider=Microsoft.Jet.OLEDB.4.0;" +
             "Data Source=" + excelFile + ";Extended Properties=Excel 8.0;";
-            List <TestCaseData> testDataList = new List<TestCaseData>();
+            List<TestCaseData> testDataList = new List<TestCaseData>();
             using (OleDbConnection connection = new OleDbConnection(connectionStr))
             {
                 connection.Open();
@@ -26,14 +30,30 @@ namespace WebLetoBank.Utilities
                 {
                     String CRM = reader.GetValue(0).ToString();
                     String AccountNumber = reader.GetValue(1).ToString();
-                    TestCaseData testData = new TestCaseData(CRM, AccountNumber);
-                    testDataList.Add(testData);                    
+                    if (AccountNumber != "NULL")
+                    {
+                        f = false;
+                        TestCaseData testData = new TestCaseData(CRM, AccountNumber);                        
+                        for (int i = 0; i < testDataList.Count; i++)
+                        {                           
+                            if (testData.Arguments[1].Equals(testDataList[i].Arguments[1]))
+                            { 
+                                f = true;
+                                Log.Info(f);
+                                break; 
+                            }                            
+                        }
+                        if (f == false) {
+                            testDataList.Add(testData);
+                            Log.Info("CRM: " + testData.Arguments[0] + ", " + testData.Arguments[1]);                            
+                        }
+                    }
                 }
                 reader.Close();
-            }
-
-            return testDataList;
-        }
+             }
+           return testDataList;
+       }
     }
 }
+
 

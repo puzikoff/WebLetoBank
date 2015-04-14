@@ -15,19 +15,24 @@ namespace WebLetoBank.Tests
         private const string AccessCode = "123456";
         private const string OTR = "334500";
         private const string ProtectCode = "1234";
-       
-        [Test]
+//       
+ //      [Test]
 
-        [TestCase("40817810600340000030", "387634")]       
-                
-        public void AccountRegistrationTest(string AccountNumber, string Username)
+   //     [TestCase("40817810100250026565", "5600214")]
+     //   [TestCase("40817810000450003022", "1270160")]
+      //  [TestCase("40817810300250010627", "429805")]
+       
+
+
+
+        public void AccountRegistrationTest(string AccountNumber, string CRMClientId)
         {
             Log = LogManager.GetCurrentClassLogger();
             Log.Trace(" Navigate to authentication page");
             Browser.Navigate(BaseUrl + "/self");
             //Browser.Navigate(Settings.Settings + "/self");
             Log.Trace(" Filling authentication fields");            
-            AuthPageHelper.FillAuthenticationFields("u" + Username, Password);
+            AuthPageHelper.FillAuthenticationFields("u" + CRMClientId, Password);
             Log.Trace(" Click Registration Button ");
             AuthPageHelper.RegistrationButtonClick();
             Log.Trace(" Agree with license terms");
@@ -52,8 +57,8 @@ namespace WebLetoBank.Tests
                 IWebElement Error = Browser.GetDriver().FindElement(By.XPath("//li"));
                 Log.Error(" " + Error.Text);                
             }
-            Log.Trace(" Enter username: " + "u" + Username);
-            RegistrationHelper.EnterUsername("u" + Username);
+            Log.Trace(" Enter username: " + "u" + CRMClientId);
+            RegistrationHelper.EnterUsername("u" + CRMClientId);
             Log.Trace(" Delete existing username field");
             Browser.ExecuteJavaScript("var logins = document.getElementById('logins')");
             Browser.ExecuteJavaScript("logins.parentNode.removeChild(logins)");

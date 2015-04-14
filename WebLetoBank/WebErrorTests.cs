@@ -65,17 +65,17 @@ namespace WebLetoBank.Tests
         }
 
         [Test]
-        public void ContractPageTest()
+        public void LoanContractPageTest()
         {
             Log.Trace(" Navigate to credit contract");
-            Browser.Navigate(BaseUrl + "/banking/contracts/" + contract);            
+            Browser.Navigate(BaseUrl + "/banking/contracts/" + contractLoan);            
             if (!Browser.existsElement(By.XPath("//pre")))
             {
                 Log.Error(" No JSON on credit contract page");
                 Log.Info(" Making screenshot: \\" + FilesPaths.ContractPageScreen);
                 Browser.SaveScreenshot(FilesPaths.ContractPageScreen);
             }
-            Log.Trace(" Getting credit contract JSON: contractNumber " + contract);
+            Log.Trace(" Getting credit contract JSON: contractNumber " + contractLoan);
             _json = Browser.GetDriver().FindElement(By.XPath("//pre")).Text;
             if ((_json.StartsWith("{\"errorCode\"")) | (_json.StartsWith("{\"message\"")))
             {
@@ -91,10 +91,62 @@ namespace WebLetoBank.Tests
         }
 
         [Test]
+        public void CardContractPageTest()
+        {
+            Log.Trace(" Navigate to credit contract");
+            Browser.Navigate(BaseUrl + "/banking/contracts/" + contractCard);
+            if (!Browser.existsElement(By.XPath("//pre")))
+            {
+                Log.Error(" No JSON on credit contract page");
+                Log.Info(" Making screenshot: \\" + FilesPaths.ContractPageScreen);
+                Browser.SaveScreenshot(FilesPaths.ContractPageScreen);
+            }
+            Log.Trace(" Getting credit contract JSON: contractNumber " + contractCard);
+            _json = Browser.GetDriver().FindElement(By.XPath("//pre")).Text;
+            if ((_json.StartsWith("{\"errorCode\"")) | (_json.StartsWith("{\"message\"")))
+            {
+                Log.Error(" Error on credit contract page");
+                Log.Error(_json);
+                Log.Info(" Making screenshot: \\" + FilesPaths.ContractPageScreen);
+                Browser.SaveScreenshot(FilesPaths.ContractPageScreen);
+
+            }
+            Assert.False(_json.StartsWith("{\"errorCode\""));
+            Assert.False(_json.StartsWith("{\"message\""));
+            Log.Info(" OK");
+        }
+
+        [Test]
+        public void DepositContractPageTest()
+        {
+            Log.Trace(" Navigate to credit contract");
+            Browser.Navigate(BaseUrl + "/banking/contracts/" + contractDeposit);
+            if (!Browser.existsElement(By.XPath("//pre")))
+            {
+                Log.Error(" No JSON on credit contract page");
+                Log.Info(" Making screenshot: \\" + FilesPaths.ContractPageScreen);
+                Browser.SaveScreenshot(FilesPaths.ContractPageScreen);
+            }
+            Log.Trace(" Getting credit contract JSON: contractNumber " + contractDeposit);
+            _json = Browser.GetDriver().FindElement(By.XPath("//pre")).Text;
+            if ((_json.StartsWith("{\"errorCode\"")) | (_json.StartsWith("{\"message\"")))
+            {
+                Log.Error(" Error on credit contract page");
+                Log.Error(_json);
+                Log.Info(" Making screenshot: \\" + FilesPaths.ContractPageScreen);
+                Browser.SaveScreenshot(FilesPaths.ContractPageScreen);
+
+            }
+            Assert.False(_json.StartsWith("{\"errorCode\""));
+            Assert.False(_json.StartsWith("{\"message\""));
+            Log.Info(" OK");
+        }
+
+        [Test]
         public void PaymentsSchedulePageTest()
         {
             Log.Trace(" Navigate to credit's payments schedule");
-            Browser.Navigate(BaseUrl + "/banking/contracts/" + contract + "/paymentsschedule");            
+            Browser.Navigate(BaseUrl + "/banking/contracts/" + contractLoan + "/paymentsschedule");            
             if (!Browser.existsElement(By.XPath("//pre")))
             {
                 Log.Error(" No JSON on credit's payments schedule page");
@@ -119,14 +171,14 @@ namespace WebLetoBank.Tests
         public void ContractServicesPageTest()
         {
             Log.Trace(" Navigate to contract page and expand services ");
-            Browser.Navigate(BaseUrl + "/banking/contracts/" + contract + "?expand=services");            
+            Browser.Navigate(BaseUrl + "/banking/contracts/" + contractLoan + "?expand=services");            
             if (!Browser.existsElement(By.XPath("//pre")))
             {
                 Log.Error(" No JSON on contracts services page");
                 Log.Info(" Making scrennshot: \\" + FilesPaths.ContractServicesScreen);
                 Browser.SaveScreenshot(FilesPaths.ContractServicesScreen);
             }
-            Log.Trace(" Getting JSON /banking/contracts/" + contract + "?expand=services");            
+            Log.Trace(" Getting JSON /banking/contracts/" + contractLoan + "?expand=services");            
             _json = Browser.GetDriver().FindElement(By.XPath("//pre")).Text;
             if ((_json.StartsWith("{\"errorCode\"")) | (_json.StartsWith("{\"message\"")))
             {
@@ -194,14 +246,14 @@ namespace WebLetoBank.Tests
         public void ContractTimelinePageTest()
         {
             Log.Trace(" Navigate to contract timeline page ");
-            Browser.Navigate(BaseUrl + "/banking/contracts/" + contract + "/timeline");            
+            Browser.Navigate(BaseUrl + "/banking/contracts/" + contractCard + "/timeline");            
             if (!Browser.existsElement(By.XPath("//pre")))
             {
                 Log.Error(" No JSON on contract timeline page");
                 Log.Info(" Making screenshot: \\" + FilesPaths.ContractTimelineScreen);
                 Browser.SaveScreenshot(FilesPaths.ContractTimelineScreen);
             }
-            Log.Trace(" Getting JSON /banking/contracts/" + contract + "/timeline");
+            Log.Trace(" Getting JSON /banking/contracts/" + contractCard + "/timeline");
             _json = Browser.GetDriver().FindElement(By.XPath("//pre")).Text;
             if ((_json.StartsWith("{\"errorCode\"")) | (_json.StartsWith("{\"message\"")))
             {
@@ -219,7 +271,7 @@ namespace WebLetoBank.Tests
         public void ContractTimelineEventPageTest()
         {
             Log.Trace(" Navigate to contract timeline event page ");
-            Browser.Navigate(BaseUrl + "/banking/contracts/" + contract + "/timeline/" + eventId);            
+            Browser.Navigate(BaseUrl + "/banking/contracts/" + contractCard + "/timeline/" + eventId);            
             if ((!Browser.existsElement(By.XPath("//pre"))))
             {
                 Log.Error(" No JSON on contract timeline event page");
