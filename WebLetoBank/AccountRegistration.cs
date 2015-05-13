@@ -15,16 +15,10 @@ namespace WebLetoBank.Tests
         private const string AccessCode = "123456";
         private const string OTR = "334500";
         private const string ProtectCode = "1234";
-//       
- //      [Test]
-
-   //     [TestCase("40817810100250026565", "5600214")]
-     //   [TestCase("40817810000450003022", "1270160")]
-      //  [TestCase("40817810300250010627", "429805")]
        
-
-
-
+     //  [Test]
+   //    [TestCase("40817810900250050595", "7421799")]
+    
         public void AccountRegistrationTest(string AccountNumber, string CRMClientId)
         {
             Log = LogManager.GetCurrentClassLogger();
@@ -49,7 +43,7 @@ namespace WebLetoBank.Tests
             }       
             Browser.WaitReadyState();
             Log.Trace(" Enter SMS code(otp)");
-            RegistrationHelper.EnterOTR(OTR);
+            RegistrationHelper.EnterOTR(OtpReader.getOtpFromFile());
             Log.Trace(" Click Next. Go to username page");
             RegistrationHelper.NextButtonClick();
             Browser.WaitReadyState();

@@ -127,6 +127,8 @@
   <ItemGroup>
     <Compile Include="Browser.cs" />
     <Compile Include="AuthPageHelper.cs" />
+    <Compile Include="EnvironomentHelper.cs" />
+    <Compile Include="OtpReader.cs" />
     <Compile Include="ExcelTestDataReader.cs" />
     <Compile Include="FilesPaths.cs" />
     <Compile Include="DirectoryHelper.cs" />

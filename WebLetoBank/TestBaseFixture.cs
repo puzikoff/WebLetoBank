@@ -9,6 +9,7 @@ namespace WebLetoBank.Tests
     public class TestBaseFixture
     {
         public static Logger Log;
+
         //public const string BaseUrl = "https://mtest.ekassir.com:4443/personalcabinet/api/v1";      //MTEST 
         //public const string BaseUrl = "https://mtest.ekassir.com:4443/personalcabinet2/api/v1";   //MTEST2
         //public const string BaseUrl = "https://sb2.ekassir.com/personalcabinet/api/v1";           //SB
@@ -30,8 +31,6 @@ namespace WebLetoBank.Tests
         public const string contractLoan = "13907813";                                                //PROD, PROD2 loan contract
         public const string contractDeposit = "14154321";                                                //PROD, PROD2 deposit contract
         public const string eventId = "2015031913493048_20150319_PS012950_932985";                                  //PROD, PROD2 eventId
-       
-
         public TestContext TestContext { get; set; }
 
         [TestFixtureSetUp]

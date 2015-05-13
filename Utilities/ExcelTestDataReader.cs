@@ -36,16 +36,13 @@ namespace WebLetoBank.Utilities
                         TestCaseData testData = new TestCaseData(CRM, AccountNumber);                        
                         for (int i = 0; i < testDataList.Count; i++)
                         {                           
-                            if (testData.Arguments[1].Equals(testDataList[i].Arguments[1]))
-                            { 
-                                f = true;
-                                Log.Info(f);
+                            if (testData.Arguments[1].Equals(testDataList[i].Arguments[1])) { 
+                                f = true;                             
                                 break; 
                             }                            
                         }
                         if (f == false) {
-                            testDataList.Add(testData);
-                            Log.Info("CRM: " + testData.Arguments[0] + ", " + testData.Arguments[1]);                            
+                            testDataList.Add(testData);         
                         }
                     }
                 }

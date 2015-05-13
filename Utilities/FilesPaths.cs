@@ -27,6 +27,8 @@ namespace WebLetoBank.Utilities
         public const string ContractTimelineEventScreen = @"ScreenShots\ContractTimelineEvent.jpg";
 
         public const string AnotherUserContractPageScreen = @"ScreenShots\AnotherUserContract.jpg";
+
+        public const string MtestSms = @"\\VM-LETO-MTEST\Leto_sms\sms.txt";
         
     }
 }

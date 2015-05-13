@@ -43,8 +43,9 @@ namespace WebLetoBank.Tests
                 Log.Error(" " + Error.Text);                
             }
             Browser.WaitReadyState();
-            Log.Trace(" Enter SMS code(otp)");
-            RegistrationHelper.EnterOTR(OTR);
+            Log.Trace(" Enter SMS code(otp):" + OtpReader.getOtpFromFile());
+            //RegistrationHelper.EnterOTR("334500");
+            RegistrationHelper.EnterOTR(OtpReader.getOtpFromFile());
             Log.Trace(" Click Next. Go to username page");
             RegistrationHelper.NextButtonClick();
             Browser.WaitReadyState();
